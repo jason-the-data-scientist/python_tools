@@ -1,3 +1,6 @@
+#Description: Converts Pandas paruqet file to a Spark parquet file
+
+
 #Import Packages
 import numpy as np
 import pandas as pd
@@ -5,7 +8,7 @@ from pyspark.context import SparkContext
 from pyspark.sql.session import SparkSession
 
 #Define Function
-def pdf_to_sdf( pandas_file_path, pandas_file_name, spark_file_name):
+def pandas_to_spark_parquet( pandas_file_path, pandas_file_name, spark_file_name):
 
   #Create Spark session
   sc = SparkContext.getOrCreate()
