@@ -43,7 +43,7 @@ def install(package: str) -> None:
 
 
     #Named packages, common Git packages installed
-    named_packages = {'package_name': 'https://$GITHUB_USER:$GITHUB_PAT@github.com/package_name.git@master'}
+    named_packages = {'package_name': 'https://github.com/package_name.git@master'}
    
 
     #Get Git url based on named packages
