@@ -1,2 +1,2 @@
-# python_functions
-Contains Python functions that I have used.
+## Description
+This repository contains Python tools and functionalities that I have used and found useful.
